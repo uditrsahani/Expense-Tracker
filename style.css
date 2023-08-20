@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form, .displayExpenses-div{
+  max-width: 500px;
+  background-color: aliceblue;
+  padding: 20px;
+  border:1px solid burlywood;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 16px; 
+}
+
+input[type="text"],
+input[type="date"],
+select,
+label{
+  padding: 5px 20px;
+ 
+}
+
+input[type="text"],
+input[type="date"],
+select:focus{
+  outline: none;
+}
+
+label{
+ font-weight: bold;
+}
+
+.displayExpenses-div{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+button[type="submit"]{
+  padding: 8px 10px;
+  background-color: black;
+  border: 1px solid burlywood;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}

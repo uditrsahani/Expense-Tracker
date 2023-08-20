@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--CSS Link-->
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+</head>
+
+<body>
+
+  <!--Menu section-->
+  <section class="header">
+    <div class="header-div">
+      <a href="">Track</a>
+      <a href="">About</a>
+      <a href="">Report Bug</a>
+    </div>
+  </section>
+  <br><br>
+
+  <!--Input field section-->
+  <section class="inputField">
+    <div class="inputField-div">
+      <form id="myForm">
+        <label for="">
+          Expense Name:
+          <input type="text" name="expense-name" id="expense-name" placeholder="Expense name here...">
+        </label>
+        <br><br>
+
+        <label for="">
+          Expense Amount:
+          <input type="text" name="amount" id="expense-amount" placeholder="Emount name here...">
+        </label>
+        <br><br>
+
+        <label for="">
+          Expense Date:
+          <input type="date" name="expense-date" id="expense-date" placeholder="Expense date here...">
+        </label>
+        <br><br>
+
+        <label for="">
+          Feeling:
+          <!-- <br> -->
+          <select name="" id="expense-feeling">
+            <option value="select">Select Feeling</option>
+            <option value="Very Happy">Very Happy</option>
+            <option value="Happy">Happy</option>
+            <option value="Normal">Normal</option>
+            <option value="Regret">Regret</option>
+          </select>
+        </label>
+        <br><br>
+        <button type="submit" id="add-expense">Add Expense</button>
+      </form>
+    </div>
+  </section>
+<br><br><br>
+
+  <!--Display expenses-->
+  <section class="displayExpenses">
+    <div class="displayExpenses-div">
+     
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
